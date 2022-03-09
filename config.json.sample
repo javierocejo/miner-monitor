@@ -1,0 +1,16 @@
+{
+  "checkEveryMinutes": 10,
+  "miners": [
+    {
+      "id": "sampleMinerID",
+      "controllerDevice": {
+        "email": "",
+        "password": "",
+        "region": "",
+        "name": "",
+        "relayChannel": 1
+      }
+    }
+  ]
+
+}

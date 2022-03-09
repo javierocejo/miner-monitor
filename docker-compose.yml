@@ -1,0 +1,11 @@
+version: '3'
+services:
+    miner-monitor:
+      image: miner-monitor:1.0.0
+      container_name: miner-monitor
+      build:
+        context: ./src
+        dockerfile: ./Dockerfile
+      volumes:
+        - './config.json:/app/config.json'
+      restart: 'always'
